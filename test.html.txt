@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+< body>
+
+<header class="header" style="background-color: #FF5733;">
+    <div class="container">
+        <h1 class="logo" style="color: #fff;">Colorful Website</h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link" style="color: #fff;">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link" style="color: #fff;">About</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link" style="color: #fff;">Services</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link" style="color: #fff;">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="section section--home" style="background-color: #FFC300;">
+    <div class="container">
+        <h2 class="section__title">Welcome to Colorful Website</h2>
+        <p class="section__subtitle">Your vibrant destination for web solutions</p>
+    </div>
+</section>
+
+<section id="about" class="section section--about" style="background-color: #C70039;">
+    <div class="container">
+        <h2 class="section__title">About Us</h2>
+        <p class="section__text">We are a creative team passionate about crafting unique digital experiences for our clients. With a focus on innovation and collaboration, we bring ideas to life and deliver exceptional results.</p>
+    </div>
+</section>
+
+<section id="services" class="section section--services" style="background-color: #900C3F;">
+    <div class="container">
+        <h2 class="section__title">Our Services</h2>
+        <ul class="services">
+            <li class="service" style="color: #fff;">Web Development</li>
+            <li class="service" style="color: #fff;">UI/UX Design</li>
+            <li class="service" style="color: #fff;">Digital Marketing</li>
+            <li class="service" style="color: #fff;">E-commerce Solutions</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact" class="section section--contact" style="background-color: #581845;">
+    <div class="container">
+        <h2 class="section__title">Contact Us</h2>
+        <p class="section__text" style="color: #fff;">Let's create something amazing together. Reach out to us today!</p>
+        <form class="contact-form">
+            <input type="text" class="contact-form__input" placeholder="Name">
+            <input type="email" class="contact-form__input" placeholder="Email">
+            <textarea class="contact-form__textarea" placeholder="Message"></textarea>
+            <button type="submit" class="contact-form__button" style="background-color: #FF5733; color: #fff;">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer" style="background-color: #FFC300;">
+    <div class="container">
+        <p class="footer__text">© 2024 Colorful Website. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
